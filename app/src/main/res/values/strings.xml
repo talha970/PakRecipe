@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pakistani Recipes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="sc1">Kick</string>
+    <string name="sc2"> </string>
+    <string name="sc3">ass</string>
+    <string name="sc4">recipe</string>
+    <string name="banner_home_footer">ca-app-pub-6801304745288794/7448002663</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+</resources>

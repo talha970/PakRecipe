@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="3dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl"
+        android:transitionName="recipe"
+        android:background="@drawable/tvbg">
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:id="@+id/image_holder"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/tvbg"
+        />
+
+
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="fill_parent"
+            android:layout_height="105dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/tvbg"
+            android:gravity="center"
+
+            android:transitionName="recipe"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-light"
+
+            android:textSize="20sp"
+
+            android:text="Test"
+            android:layout_alignBottom="@+id/image_holder"
+            />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cat"
+            android:icon="@drawable/menu_cat"
+
+            android:title="All Categories" />
+        <item
+            android:id="@+id/nav_allrec"
+            android:icon="@drawable/menurec"
+
+            android:title="All Recipes" />
+        <item
+            android:id="@+id/nav_bookmarked"
+            android:icon="@drawable/menu_book"
+            android:title="Bookmarked" />
+
+    </group>
+
+   <!-- <item android:title="Categories">
+
+
+
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="B.B.Q/Grilled" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Beef" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Biryani/Rice" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Breakfast" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Chicken" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Chinese" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Chutni" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Curry/Salan" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Desserts" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fast Food/Burgers" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Grains/Daal" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Italian" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Juices/Drinks" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kabab" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mutton" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Salads" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sea Foods" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Snacks" />
+            <item
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Soups" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Vegetables" />
+
+        </menu>
+    </item>-->
+
+</menu>
